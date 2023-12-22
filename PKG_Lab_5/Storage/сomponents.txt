@@ -1,0 +1,11 @@
+﻿Максимальная_скорость_60 0 ..\\..\\..\\ImageBase\\src_img_1.bmp
+Максимальная_скорость_30 0 ..\\..\\..\\ImageBase\\src_img_2.bmp
+Максимальная_скорость_15 0 ..\\..\\..\\ImageBase\\src_img_3.bmp
+Скользкая_дорога 0 ..\\..\\..\\ImageBase\\src_img_5.bmp
+Дорожные_работы 0 ..\\..\\..\\ImageBase\\src_img_6.bmp
+Круговое_движение 0 ..\\..\\..\\ImageBase\\src_img_7.bmp
+Велосипедная_дорожка 0 ..\\..\\..\\ImageBase\\src_img_8.bmp
+Въезд_запрещен 0 ..\\..\\..\\ImageBase\\src_img_9.bmp
+Автозаправочная_станция 0 ..\\..\\..\\ImageBase\\src_img_10.bmp
+Что-то_непонятное 0 ..\\..\\..\\ImageBase\\src_img_11.bmp
+Главная_дорога ..\\..\\..\\ImageBase\\src_img_12.bmp

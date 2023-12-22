@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PKG_Lab_5.Image.BaseImage&lt;T&gt;" Collapsed="true">
+    <Position X="13" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABABAABAACAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Image\BaseImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKG_Lab_5.Image.GrayImage" Collapsed="true">
+    <Position X="14.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Image\GrayImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKG_Lab_5.ImageAnalizer.AnalyzerResult" Collapsed="true">
+    <Position X="2.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImageAnalyzer\ImageAnalyzer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="ResultFindedItems" />
+      <Field Name="ResultNewComponentItems" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="PKG_Lab_5.ImageAnalizer.ResultFindedItem" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAIAAAAAAAAAAEAIAAAAAAAAAAA=</HashCode>
+      <FileName>ImageAnalyzer\ImageAnalyzer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PKG_Lab_5.ImageAnalizer.ResultNewComponentItem" Collapsed="true">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImageAnalyzer\ImageAnalyzer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKG_Lab_5.ImageAnalizer.ImageAnalyzer" Collapsed="true">
+    <Position X="8.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>ImageAnalyzer\ImageAnalyzer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_storage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PKG_Lab_5.ImagesData.MetaData" Collapsed="true">
+    <Position X="11.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImageData\ComponentData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKG_Lab_5.ImagesData.PerceptualHash" Collapsed="true">
+    <Position X="11.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImageData\ComponentData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKG_Lab_5.ImagesData.ComponentData" Collapsed="true">
+    <Position X="6.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImageData\ComponentData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKG_Lab_5.ImagesData.ComponentDeterminator" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImageData\ComponentDeterminator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKG_Lab_5.ImagesData.ComponentMap" Collapsed="true">
+    <Position X="10.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAEAAAAAACAAAABA=</HashCode>
+      <FileName>ImageData\ComponentMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKG_Lab_5.Storages.ComponentStorage" Collapsed="true">
+    <Position X="11.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIIAAAAAAAAAAAAAAAAAAAAAAAAEIAAAA=</HashCode>
+      <FileName>Storage\ComponentStorage.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_components" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="PKG_Lab_5.ImageFilter.ImagePreparer" Collapsed="true">
+    <Position X="16.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAQQAAAAoAQAAAA=</HashCode>
+      <FileName>ImageFilter\ImagePreparer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKG_Lab_5.ImageFilter.MorphologicalFilter" Collapsed="true">
+    <Position X="16.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImageFilter\MorphologicalFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKG_Lab_5.Form1" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAESAAAFAQAADAQAACAAAYAAAAEEAAQwBAgCA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_storage" />
+      <Field Name="_imagePreparer" />
+      <Field Name="_analyzer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PKG_Lab_5.AddNewComponentForm" Collapsed="true">
+    <Position X="4.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAAAAACSAAABAAABCgESACAAAAAAAAEACAAQBCgCA=</HashCode>
+      <FileName>AddNewComponentForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_newComponentItems" />
+      <Field Name="FindedComponents" />
+      <Field Name="FindedItems" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="PKG_Lab_5.Program" Collapsed="true">
+    <Position X="11.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKG_Lab_5.Image.BinaryImage" Collapsed="true">
+    <Position X="11.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Image\BinaryImage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="PKG_Lab_5.Image.Bit" Collapsed="true">
+    <Position X="9.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Image\BinaryImage.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
